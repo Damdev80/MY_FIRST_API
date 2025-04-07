@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "express": "5.1.0",
+    "zod": "3.24.2"
+  },
+  "name": "tercera_clase",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "dev:1": "node --watch app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "cors": "^2.8.5"
+  }
+}
