@@ -6,6 +6,7 @@
   "name": "tercera_clase",
   "version": "1.0.0",
   "main": "app.js",
+  "type": "module",
   "scripts": {
     "dev:1": "node --watch app.js"
   },
