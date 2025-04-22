@@ -1,4 +1,4 @@
-import movies from "../movies.json" with  { type: "json" }// Validaciones
+import movies from "../../movies.json" with  { type: "json" }// Validaciones
 import { randomUUID } from "node:crypto";
  
 export class MovieModel {

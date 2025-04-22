@@ -1,1 +1,23 @@
+# Dependencias
 node_modules/
+
+# Certificados y llaves
+*.pem
+
+# Archivos de entorno
+.env
+.env.*
+
+# Archivos de base de datos y dumps
+movies.json
+moviesdb_dump.sql
+
+# Archivos temporales y logs
+*.log
+*.tmp
+
+# Archivos de configuración de pruebas
+api.http
+
+# Otros archivos sensibles
+# Puedes agregar aquí otros archivos que consideres sensibles

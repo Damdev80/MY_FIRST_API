@@ -1,6 +1,9 @@
 {
   "dependencies": {
     "express": "5.1.0",
+    "mongodb": "6.15.0",
+    "mysql2": "3.14.0",
+    "uuid": "11.1.0",
     "zod": "3.24.2"
   },
   "name": "tercera_clase",
@@ -8,6 +11,8 @@
   "main": "app.js",
   "type": "module",
   "scripts": {
+    "start:mysql": "node --watch server-with-mysql.js",
+    "start:localhost": "node --watch server-with-localhost.js",
     "dev:1": "node --watch app.js"
   },
   "keywords": [],
